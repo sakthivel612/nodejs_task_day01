@@ -17,9 +17,9 @@ const app = express();
 app.use(express.static("timestamps"));
 
 // api's
-app.get("/", (req, res) => {
-  res.send("Hey i am sakthi. i am using nodejs server");
-});
+// app.get("/", (req, res) => {
+//   res.send("Hey i am sakthi. i am using nodejs server");
+// });
 
 app.get("/static", (req, res) => {
   let time = new Date();
